@@ -9,6 +9,8 @@ namespace CarLotSimulator
         //Default contructor//
         public Car()
         {
+            CarLot.numberOfCars++; //every time a new car is created; we increment numberOfCars by 1;
+            //ClassName.staticMember
         }
 
         //Create a constructor that will accept arguments//
